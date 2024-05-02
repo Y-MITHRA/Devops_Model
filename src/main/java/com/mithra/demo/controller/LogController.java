@@ -20,10 +20,8 @@ public class LogController {
     @GetMapping("/")
     public String api()
     {
- 
         return "log";
     }
- 
     @PostMapping("/log")
     public String login(@ModelAttribute("user") Login user) {
  
